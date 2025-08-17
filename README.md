@@ -10,9 +10,9 @@ Jtol is built and used by jt rinker and olivier pasquet. It is a library dedicat
 
 For Max 8.2.2 and bach 0.8.1 beta.
 
-http://www.opasquet.fr
-https://cycling74.com/downloads/
-http://www.bachproject.net/download
+http://www.opasquet.fr<br>
+https://cycling74.com/downloads/<br>
+http://www.bachproject.net/download<br>
 
 ---
 
