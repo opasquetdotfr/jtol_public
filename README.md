@@ -1,3 +1,5 @@
+<img width="1040" height="494" alt="delaunay_tree" src="https://github.com/user-attachments/assets/948a5918-ca98-4b0b-8e9a-62f8b1cf6cc1" />
+
 # jtol
 
 🔴 JTOL is currently private. Please contact me if interested.
@@ -35,17 +37,7 @@ http://www.bachproject.net/download
 
 #### jtol.bach.ratio
 
-`jtol.bach.ratio` gives rational values from a tree representation. Inspired by [ENP notation](www2.siba.fi), it is very pretty and convenient for [rhythmic musical structures](en.wikipedia.org) where durations are filled in rational ways. Ratios are nested with parentheses to create a multilevel tree.
-
-Each ratio before a new parenthesis level is the total duration for what is inside that parenthesis. For example, simple musical tuplets:
-
-- `( 1 ( 1 1 1 ) )` → `( 1/3 1/3 1/3 )` → `( 0.333 0.333 0.333 )` (Σ = 1)  
-- `( 1 ( 1 1 ( 1 1 1 ) ) )` → `( 1/2 1/6 1/6 1/6 )` → `( 0.5 0.1667 0.1667 0.1667 )` (Σ = 1)
-
-There's a close relation with spatial tessellations like [Voronoi](en.wikipedia.org), where the [Delaunay triangulation](en.wikipedia.org) is practical.
-
-![Delaunay Triangulation – Olivier Pasquet – 2012](Image: delaunay triangulation - Olivier Pasquet - 2012)  
-![jtol.bach.ratio – Olivier Pasquet – 2012](Image: jtol.bach.ratio - Olivier Pasquet - 2012)
+<img width="600" height="516" alt="04_demo_jtol bach_ ratio_" src="https://github.com/user-attachments/assets/c7cf1620-33e6-4b71-82d3-e8942a792651" />
 
 ---
 
@@ -55,7 +47,7 @@ There's a close relation with spatial tessellations like [Voronoi](en.wikipedia.
 
 For most generators, each parameter can be a [scalar](en.wikipedia.org), a [vector](en.wikipedia.org), or a [tree](en.wikipedia.org). This allows cell-by-cell and step-by-step control for the generated [forms](en.wikipedia.org).
 
-![jtol.bach henon – Olivier Pasquet – 2012](Image: jtol.bach henon - Olivier Pasquet 2012)
+<img width="300" height="241" alt="jtol_bach_henon-300x241" src="https://github.com/user-attachments/assets/1ad38bd8-2f8a-4565-8b62-0de9e8e8630d" />
 
 ---
 
@@ -63,7 +55,7 @@ For most generators, each parameter can be a [scalar](en.wikipedia.org), a [vect
 
 `jtol.bach.play` converts ratios from `jtol.bach2score` into millisecond timings and outputs corresponding time-delayed bangs when a `play` message is received.
 
-![jtol.bach.play – Olivier Pasquet – 2012](Image: jtol.bach.play - Olivier Pasquet - 2012)
+<img width="600" height="364" alt="02_demo_jtol bach_ play_" src="https://github.com/user-attachments/assets/80dd4303-6c7f-44b4-9226-827d355b8d9b" />
 
 ---
 
@@ -71,7 +63,7 @@ For most generators, each parameter can be a [scalar](en.wikipedia.org), a [vect
 
 `jtol.bach.dur` retrieves all durations of a jtol tree.
 
-![jtol.bach.dur – Olivier Pasquet](Image: jtol.bach.dur - Olivier Pasquet)
+<img width="600" height="414" alt="03_demo_jtol bach_ dur_" src="https://github.com/user-attachments/assets/7a493c37-4835-4aee-8224-65ec8f41fd44" />
 
 ---
 
@@ -79,10 +71,12 @@ For most generators, each parameter can be a [scalar](en.wikipedia.org), a [vect
 
 `jtol.bach2score` gathers a time tree representation for bach.score. The time signature is calculated from the incoming tree and the note value.
 
-![jtol.bach2score – Olivier Pasquet](Image: jtol.bach2score - Olivier Pasquet)
+<img width="600" height="536" alt="01_demo_jtol bach2score" src="https://github.com/user-attachments/assets/6a2f9254-727e-4c93-856f-0bc361797401" />
 
 ---
 
 #### jtol.bach.reduce
 
 `jtol.bach.reduce` reduces the depth of trees. For example:
+
+<img width="600" height="532" alt="14_demo_jtol bach_ reduce" src="https://github.com/user-attachments/assets/e4338091-884a-4614-a99b-2d447a7cb7ec" />
