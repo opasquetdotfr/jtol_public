@@ -27,56 +27,89 @@ http://www.bachproject.net/download
 - Permutative, serial functions  
 - Multi-order Markov chains  
 - Multi-set  
-- Quantization, interpolation and extrapolation  
+- Quantisation, interpolation and extrapolation  
 - Pitch functions  
 - Genetic algorithms
 
 ---
 
 ### Examples
+- `jtol.bach.ratio`
+<img width="600" height="516" alt="04_demo_jtol bach_ ratio_" src="https://github.com/user-attachments/assets/d7d8c423-2c32-4192-92a8-1a98428b6565" />
 
-#### jtol.bach.ratio
+- `jtol.bach.henon`
+<img width="600" height="482" alt="jtol_bach_henon-300x241" src="https://github.com/user-attachments/assets/ef6d8bc1-5e90-4bb6-9251-98f1ae5fb3a5" />
 
-<img width="600" height="516" alt="04_demo_jtol bach_ ratio_" src="https://github.com/user-attachments/assets/c7cf1620-33e6-4b71-82d3-e8942a792651" />
+- `jtol.bach.play`
+<img width="600" height="364" alt="02_demo_jtol bach_ play_" src="https://github.com/user-attachments/assets/d9e00942-689a-4955-97bd-fb7669777774" />
 
----
+- `jtol.bach.dur`
+<img width="600" height="414" alt="03_demo_jtol bach_ dur_" src="https://github.com/user-attachments/assets/4ebf9baa-b8c3-4fbc-b9c4-4a9c74aab2ba" />
 
-#### jtol.bach.henon
+- `jtol.bach2score`
+<img width="600" height="536" alt="01_demo_jtol bach2score" src="https://github.com/user-attachments/assets/aefea1a4-b462-4f62-ad6a-553422e50959" />
 
-`jtol.bach.henon` is one of the available generators. It performs the [Henon map](en.wikipedia.org), a non‑linear two‑dimensional discrete deterministic dynamical system.
+- `jtol.bach.reduce`
+<img width="600" height="532" alt="14_demo_jtol bach_ reduce" src="https://github.com/user-attachments/assets/9ca17cb3-1a3a-4b9f-9fd2-43a6ca40e819" />
 
-For most generators, each parameter can be a [scalar](en.wikipedia.org), a [vector](en.wikipedia.org), or a [tree](en.wikipedia.org). This allows cell-by-cell and step-by-step control for the generated [forms](en.wikipedia.org).
+- `jtol.bach.setdur`
+<img width="600" height="396" alt="05_demo_jtol bach_ setdur" src="https://github.com/user-attachments/assets/ac2aa862-0b39-4e06-86e1-25254d7b858c" />
 
-<img width="300" height="241" alt="jtol_bach_henon-300x241" src="https://github.com/user-attachments/assets/1ad38bd8-2f8a-4565-8b62-0de9e8e8630d" />
+- `jtol.bach.delay`
+<img width="600" height="421" alt="06_demo_jtol bach_ delay_" src="https://github.com/user-attachments/assets/5a5c7137-0de3-44e2-acfa-c6445e0ac777" />
 
----
+- `jtol.bach.length`
+<img width="600" height="337" alt="07_demo_jtol bach_ length" src="https://github.com/user-attachments/assets/0f463eeb-01b2-4465-8a16-26656e117d5d" />
 
-#### jtol.bach.play
+- `jtol.bach.totdur`
+<img width="600" height="338" alt="08_demo_jtol bach_ todur_" src="https://github.com/user-attachments/assets/704e16b5-e3a5-40d5-b77e-5a9307336089" />
 
-`jtol.bach.play` converts ratios from `jtol.bach2score` into millisecond timings and outputs corresponding time-delayed bangs when a `play` message is received.
+- `jtol.bach.musicmaker`
+<img width="600" height="311" alt="09_demo_jtol bach_ musicmaker" src="https://github.com/user-attachments/assets/c86701ac-6899-41c7-9019-1b524a7eebd2" />
 
-<img width="600" height="364" alt="02_demo_jtol bach_ play_" src="https://github.com/user-attachments/assets/80dd4303-6c7f-44b4-9226-827d355b8d9b" />
+- `jtol.bach.humanize`
+<img width="600" height="370" alt="10_demo_jtol bach_ humanize" src="https://github.com/user-attachments/assets/34bd2b6f-e73e-4ec5-b57d-1cbfa62bbd08" />
 
----
+- `jtol.bach.swing`
+<img width="600" height="370" alt="11_demo_jtol bach_ swing_" src="https://github.com/user-attachments/assets/106f9c9d-ecb4-4355-8568-1b9c502f3185" />
 
-#### jtol.bach.dur
+- `jtol.bach.simplify`
+<img width="600" height="521" alt="12_demo_jtol bach_ simplify" src="https://github.com/user-attachments/assets/27797996-f542-42a2-a3d1-958bd63dbb59" />
 
-`jtol.bach.dur` retrieves all durations of a jtol tree.
+- `jtol.bach.slice`
+<img width="600" height="453" alt="13_demo_jtol bach_ slice_" src="https://github.com/user-attachments/assets/3ec8d0d0-e1e2-46af-8d05-596b3d3d1a5c" />
 
-<img width="600" height="414" alt="03_demo_jtol bach_ dur_" src="https://github.com/user-attachments/assets/7a493c37-4835-4aee-8224-65ec8f41fd44" />
+- `jtol.bach.randratio`
+<img width="600" height="453" alt="15_demo_jtol bach_ randratio" src="https://github.com/user-attachments/assets/64ffd8a7-10c4-4b1f-bb68-019d71c5d851" />
 
----
+- `jtol.bach.scramble`
+<img width="600" height="366" alt="16_demo_jtol bach_ scramble" src="https://github.com/user-attachments/assets/439016e5-1ec0-4644-a839-89152aae034f" />
 
-#### jtol.bach2score
+- `jtol.bach.slicer`
+<img width="600" height="432" alt="17_demo_jtol bach_ slicer" src="https://github.com/user-attachments/assets/f9b875ad-0c9d-43b6-92db-b73617c10f48" />
 
-`jtol.bach2score` gathers a time tree representation for bach.score. The time signature is calculated from the incoming tree and the note value.
+- `jtol.bach.change`
+<img width="600" height="397" alt="18_demo_jtol bach_ change" src="https://github.com/user-attachments/assets/8177aaf9-c49b-433c-80b3-39adf0606ac3" />
 
-<img width="600" height="536" alt="01_demo_jtol bach2score" src="https://github.com/user-attachments/assets/6a2f9254-727e-4c93-856f-0bc361797401" />
+- `jtol.bach.rep`
+<img width="600" height="398" alt="19_demo_jtol bach_ rep_" src="https://github.com/user-attachments/assets/0f0b92c7-4d28-4bed-8eb7-684bc03c7730" />
 
----
+- `jtol.bach.rev`
+<img width="600" height="294" alt="20_demo_jtol bach_ rev_" src="https://github.com/user-attachments/assets/b1b37503-4948-4a78-a6d0-1277c9b24b36" />
 
-#### jtol.bach.reduce
+- `jtol.bach.2athenacl`
+<img width="600" height="469" alt="21_demo_jtol bach_ 2athenacl" src="https://github.com/user-attachments/assets/310b7c99-f70d-45f1-804b-d17ff6449095" />
 
-`jtol.bach.reduce` reduces the depth of trees. For example:
+- `jtol.bach.scale`
+<img width="600" height="380" alt="22_demo_jtol bach_ scale_" src="https://github.com/user-attachments/assets/9b1ec0a8-0c5d-4e2f-9904-1e8ec2f4312e" />
 
-<img width="600" height="532" alt="14_demo_jtol bach_ reduce" src="https://github.com/user-attachments/assets/e4338091-884a-4614-a99b-2d447a7cb7ec" />
+- `jtol.bach.nth`
+<img width="600" height="425" alt="23_demo_jtol bach_ nth_" src="https://github.com/user-attachments/assets/eac41e13-340b-4631-b6c1-6d03a17cb02b" />
+
+- `jtol.bach.oneperm`
+<img width="600" height="520" alt="24_demo_jtol bach_ oneperm" src="https://github.com/user-attachments/assets/a06389dc-5f99-4ba0-bb5b-deb752c53952" />
+
+- `jtol.bach.ssort`
+<img width="600" height="358" alt="25_demo_jtol bach_ ssort_" src="https://github.com/user-attachments/assets/46ec535a-277b-4763-b09e-732826706f41" />
+
+- ETC ETC...
